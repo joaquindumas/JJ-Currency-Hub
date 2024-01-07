@@ -14,7 +14,7 @@ class PhptoAny extends StatefulWidget {
 class _PhptoAnyState extends State<PhptoAny> {
   TextEditingController phpController = TextEditingController();
   String dropdownvalue = 'USD';
-  String answer = 'Converted Currency will be shown here';
+  String answer = 'Converted currency will be shown here';
 
   @override
   Widget build(BuildContext context) {
